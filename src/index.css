@@ -81,3 +81,56 @@ li{
 .paddinBox{
   padding: 20px 20px;
 }
+
+/**Pokemon's colors***/
+.color_electric{
+  background-color: var(--electric);
+} 
+.color_normal{
+  background-color: var(--normal);
+} 
+.color_fire{
+  background-color: var(--fire);
+} 
+.color_water{
+  background-color: var(--water);
+} 
+.color_ice{
+  background-color: var(--ice);
+} 
+.color_rock{
+  background-color: var(--rock);
+} 
+.color_flying{
+  background-color: var(--flying);
+}
+.color_grass{
+  background-color: var(--grass);
+} 
+.color_psychic{
+  background-color: var(--psychic);
+}
+.color_ghost{
+  background-color: var(--ghost);
+} 
+.color_bug{
+  background-color: var(--bug);
+}
+.color_poison{
+  background-color: var(--poison);
+}
+.color_ground{
+  background-color: var(--ground);
+}
+.color_dragon{
+  background-color: var(--dragon);
+}
+.color_steel{
+  background-color: var(--steel);
+}
+.color_fighting{
+  background-color: var(--fighting);
+}
+.color_default{
+  background-color: var(--default);
+}
