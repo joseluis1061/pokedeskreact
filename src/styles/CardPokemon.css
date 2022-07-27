@@ -1,4 +1,3 @@
-
 .CardPokemon{
   width: 100%;
   background-color: var(--red);
@@ -59,31 +58,4 @@
 }
 .btn_powers p{
   font-size: 2rem;
-}
-.pokemon_power{
-  margin: 15px auto;
-  width: 100%;
-  max-width: 540px;
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(255,255,255,0.45);
-}
-.power_item{  
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 1px dashed black;
-}
-.power_item p{  
-  font-weight: bold;
-  padding: 2px 15px;
-  
-}
-.power{
-  width: 50%;
-}
-.value{
-  width: 50%;
 }

@@ -1,7 +1,6 @@
 import React from 'react'
 
 export const Types = ({types}) => {
-  console.log(`Types ${types[0].type.name}`)
   return (
     <>
       <p className={`type type1 shadow color_${types[0].type.name}`}>{types[0].type.name}</p>

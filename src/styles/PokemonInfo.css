@@ -16,7 +16,7 @@
   min-width: 60px;
   max-width: 180px;
   border-radius: 50% 50%;
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   overflow: hidden;
 }
 .pokemon_image img{
