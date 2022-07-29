@@ -1,13 +1,17 @@
 import React from 'react';
 import '../styles/PokemonPowers.css';
 
-export const PokemonPowers = ({base_stat, name}) => {
+export const PokemonPowers = ({id, stats}) => {
   return (
     <article className="pokemon_power">
-      <li className="power_item">
-        <p className="power"> {name}:</p> 
-        <p className='value'>{base_stat}</p>
-      </li>   
+      {
+        stats.map((element)=>{
+          return <li className="power_item" key = {`${element.stat.name}_${id}`}  >
+            <p className="power"> {element.stat.name}:</p> 
+            <p className='value'>{element.base_stat}</p>
+          </li>  
+        })
+      }
     </article>
   )
 }

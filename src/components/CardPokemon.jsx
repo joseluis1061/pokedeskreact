@@ -37,13 +37,10 @@ export const CardPokemon = ({pokemons}) => {
         </div>
         {
           powersControl &&
-          stats.map(element => {
-            return <PokemonPowers 
-              key = {`${name}_${pokemons.id}`}              
-              base_stat = {element.base_stat}
-              name = {element.stat.name}
-            />
-          })
+          <PokemonPowers 
+            id = {pokemons.id}
+            stats = {stats}
+          />
         }
       </div>
     </section>
