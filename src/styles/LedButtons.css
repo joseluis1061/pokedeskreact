@@ -19,6 +19,9 @@
   grid-column: 1/2;
   height: 70px;
   width: 70px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 4px 4px rgba(0, 0, 0, 0.2); 
 }
 .leds_containers{
   grid-column: 2/4;
@@ -32,14 +35,26 @@
   height: 40px;
   border: none;
   border-radius: 50%;
-  box-shadow: 1px 3px 2px 1px rgba(0, 0, 0, 0.2); 
+  box-shadow: 3px 5px 2px 1px rgba(0, 0, 0, 0.2); 
 }
 .led_green{
   background-color: greenyellow;
+
+  background-image: -moz-linear-gradient(top, #13fB04 0%, #58e343 50%, #ADED99 100%);
+  background-image: -ms-linear-gradient(top, #13fB04 0%, #58e343 50%, #ADED99 100%);
+  background-image: -o-linear-gradient(top, #13fB04 0%, #58e343 50%, #ADED99 100%);  
+  background-image: -webkit-linear-gradient(top, #13fB04 0%, #58e343 50%, #ADED99 100%);
 }
 .led_blue{
   background-color: blue;
+  background-image: -moz-linear-gradient(top, #0431f9 0%, #2f51e9 50%, #697cd5 100%);
+  background-image: -ms-linear-gradient(top, #0441f9 0%, #2f51e9 50%, #697cd5 100%);
+  background-image: -o-linear-gradient(top, #0441f9 0%, #2f51e9 50%, #697cd5 100%);  
+  background-image: -webkit-linear-gradient(top, #0441f9 0%, #2f51e9 50%, #697cd5 100%);
 }
 .led_yellow{
-  background-color: yellow;
+  background-image: -moz-linear-gradient(top, #f9a004 0%, #e0ac45 50%, #ead698 100%);
+  background-image: -ms-linear-gradient(top, #f9a004 0%, #e0ac45 50%, #ead698 100%);
+  background-image: -o-linear-gradient(top, #f9a004 0%, #e0ac45 50%, #ead698 100%);  
+  background-image: -webkit-linear-gradient(top, #f9a004 0%, #e0ac45 50%, #ead698 100%);
 }

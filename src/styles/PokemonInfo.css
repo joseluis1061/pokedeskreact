@@ -5,12 +5,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap:10px;
-  
+  gap:10px;  
+}
+@media(min-width: 490px){
+    .pokemon_info{
+      width: 50%;
+    }
 }
 .pokemon_info h2{
   color: var(--black);
   font-size: 2.2rem;
+  line-height: 1.2;
+  color: white;
 }
 .pokemon_image{
   min-width: 60px;
@@ -18,12 +24,14 @@
   border-radius: 50% 50%;
   /* background-color: blueviolet; */
   overflow: hidden;
+
 }
 .pokemon_image img{
   width: 100%;
+  z-index: 2;
 }
 .pokemon_number{
-  color: var(--black);
   font-size: 1.5rem;
   font-weight: bold;
+  color: white;
 }

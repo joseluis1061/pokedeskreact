@@ -5,10 +5,12 @@
   border: 2px solid black;
 }
 .card_pokemon_container{
+  max-width: 600px;
+  margin: 0 auto;
   border-radius: 25px;
   box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.2); 
-  background: rgb(255,255,255);
-  background: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(22,140,255,0.8388625592417062) 48%, rgba(255,255,255,1) 100%);
+  background: rgb(124,167,149);
+  background: linear-gradient(0deg, rgba(124,167,149,1) 5%, rgba(60,73,73,1) 29%, rgba(0,0,0,1) 56%); 
 }
 .screen_container{
   display: flex;
@@ -25,6 +27,10 @@
   align-items: center;
   gap: 10px;
   margin-top: 15px;
+}
+.pokemon_types h2{
+  color: white;
+  font-size: 1.8rem;
 }
 
 .type{

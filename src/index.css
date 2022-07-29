@@ -33,7 +33,7 @@
   --flying: #7AE7C7;
   --grass: #4A9681;
   --psychic: #FFC6D9;
-  --ghost: #561D25;
+  --ghost: #83545b;
   --bug: #A2FAA3;
   --poison: #795663;
   --ground: #D2B074;
@@ -41,7 +41,7 @@
   --steel: #1D8A99;
   --fighting: #2F2F2F;
   --default: #2A1A1F;
-  --dark: #444040;
+  --dark: #413d3d;
 }
 *, *::after, *::before{
   margin: 0;
@@ -85,55 +85,128 @@ li{
 
 /**Pokemon's colors***/
 .color_electric{
-  background-color: var(--electric);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--electric) 33%);
+  background-size: 3px 3px;
+  color: black;
+  font-size: 1.5rem;
 } 
 .color_normal{
-  background-color: var(--normal);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--normal) 33%);
+  background-size: 3px 3px;
+  color: white;
+  font-size: 1.5rem;
 } 
 .color_fire{
-  background-color: var(--fire);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--fire) 33%);
+  background-size: 3px 3px;
+  color: white;
+  font-size: 1.5rem;
 } 
 .color_water{
-  background-color: var(--water);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--water) 33%);
+  background-size: 3px 3px;
+  color: white;
+  font-size: 1.5rem;
 } 
 .color_ice{
-  background-color: var(--ice);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--ice) 33%);
+  background-size: 3px 3px;
+  color: black;
+  font-size: 1.5rem;
 } 
 .color_rock{
-  background-color: var(--rock);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--rock) 33%);
+  background-size: 3px 3px;
+  color: white;
+  font-size: 1.5rem;
 } 
 .color_flying{
-  background-color: var(--flying);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--flying) 33%);
+  background-size: 3px 3px;
+  color: white;
+  font-size: 1.5rem;
 }
 .color_grass{
-  background-color: var(--grass);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--grass) 33%);
+  background-size: 3px 3px;
+  color: white;
+  font-size: 1.5rem;
 } 
 .color_psychic{
-  background-color: var(--psychic);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--psychic) 33%);
+  background-size: 3px 3px;
+  color: black;
+  font-size: 1.5rem;
 }
 .color_ghost{
-  background-color: var(--ghost);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--ghost) 33%);
+  background-size: 3px 3px;
+  color: white;
+  font-size: 1.5rem;
 } 
 .color_bug{
-  background-color: var(--bug);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--bug) 33%);
+  background-size: 3px 3px;
+  color: black;
+  font-size: 1.5rem;
 }
 .color_poison{
-  background-color: var(--poison);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--poison) 33%);
+  background-size: 3px 3px;
+  color: white;
+  font-size: 1.5rem;
 }
 .color_ground{
-  background-color: var(--ground);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--ground) 33%);
+  background-size: 3px 3px;
+  color: black;
+  font-size: 1.5rem;
 }
 .color_dragon{
-  background-color: var(--dragon);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--dragon) 33%);
+  background-size: 3px 3px;
+  color: black;
+  font-size: 1.5rem;
 }
 .color_steel{
-  background-color: var(--steel);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--steel) 33%);
+  background-size: 3px 3px;
+  color: white;
+  font-size: 1.5rem;
 }
 .color_fighting{
-  background-color: var(--fighting);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--fighting) 33%);
+  background-size: 3px 3px;
   color: white;
+  font-size: 1.5rem;
 }
 .color_default{
-  background-color: var(--default);
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--default) 33%);
+  background-size: 3px 3px;
   color: white;
+  font-size: 1.5rem;
+}
+.color_dark{
+  text-transform: uppercase;
+  background: radial-gradient(black 33%, var(--dark) 33%);
+  background-size: 3px 3px;
+  color: white;
+  font-size: 1.5rem;
 }
