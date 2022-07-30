@@ -13,7 +13,7 @@ export const CardPokemon = ({pokemons}) => {
     setPowersControl(!powersControl)
   }
   return (
-    <section className='CardPokemon shadow '>
+    <section className='CardPokemon shadow container1'>
       <div className='card_pokemon_container paddinBox'>
         <div className="screen_container">
           {

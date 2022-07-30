@@ -1,10 +1,10 @@
 import React from 'react';
+import { useState, useEffect } from 'react';
 import '../styles/ControlNav.css';
 
 export const ControlNav = ({idPokemon, setIdPokemon}) => {
-
   const handleSearchString = (value)=>{
-    setIdPokemon(value);    
+    setIdPokemon(value);       
   }
 
   const handleSearchNumberBack = ()=>{
@@ -25,13 +25,15 @@ export const ControlNav = ({idPokemon, setIdPokemon}) => {
     }
   }
   return (
-    <section className='control_nav paddinBox'>
+    <section className='control_nav paddinBox container1'>
       <div className="control_nav_container">
         <input 
           type="text" 
-          className='search'
-          //value = {idPokemon}
-          onChange={(e)=>{handleSearchString(e.target.value)}}
+          className="search"
+          placeholder="Search by name or number"
+          onChange={(e)=>{            
+            handleSearchString(e.target.value)}
+          }
         />  
         <button 
           className='btn btn_back shadow'

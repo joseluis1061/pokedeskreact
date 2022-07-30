@@ -6,16 +6,14 @@ import useGetApi from './hooks/useGetApi';
 
 function App() {
   const[idPokemon, setIdPokemon] = useState(1);
-  useEffect(()=>{
-    const min = 1;
-    const max = 898;
-    const idRandom = Math.floor(Math.random() * (max - min) + min);
-    setIdPokemon(idRandom);
-  }, []);
+
   const pokemons = useGetApi(idPokemon);
   return (
     <div className="App">
-      <LedButtons />
+      <LedButtons 
+        setIdPokemon = {setIdPokemon}
+        
+      />
       <CardPokemon pokemons = {pokemons}/> 
       <ControlNav 
         idPokemon = {idPokemon}
