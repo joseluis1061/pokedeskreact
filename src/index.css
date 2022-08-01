@@ -49,16 +49,17 @@ html{
   font-size: 62.5%;
 }
 body{
+  padding: 50px;
   font-family: sans-serif;  
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
   justify-content: center;
-  height: 100vh;  
   background-image: url("./assets/image/paisaje_fondo.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 img{
   width: 100%;
@@ -96,124 +97,124 @@ li{
   background: radial-gradient(black 33%, var(--electric) 33%);
   background-size: 3px 3px;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 } 
 .color_normal{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--normal) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 } 
 .color_fire{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--fire) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 } 
 .color_water{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--water) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 } 
 .color_ice{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--ice) 33%);
   background-size: 3px 3px;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 } 
 .color_rock{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--rock) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 } 
 .color_flying{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--flying) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .color_grass{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--grass) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 } 
 .color_psychic{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--psychic) 33%);
   background-size: 3px 3px;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .color_ghost{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--ghost) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 } 
 .color_bug{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--bug) 33%);
   background-size: 3px 3px;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .color_poison{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--poison) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .color_ground{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--ground) 33%);
   background-size: 3px 3px;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .color_dragon{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--dragon) 33%);
   background-size: 3px 3px;
   color: black;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .color_steel{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--steel) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .color_fighting{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--fighting) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .color_default{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--default) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .color_dark{
   text-transform: uppercase;
   background: radial-gradient(black 33%, var(--dark) 33%);
   background-size: 3px 3px;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
