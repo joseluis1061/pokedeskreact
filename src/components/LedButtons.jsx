@@ -14,7 +14,7 @@ export const LedButtons = ({setIdPokemon}) => {
           className='pokeball_container'
           onClick={handleClikRandom}
         >
-          <img src="../../src/assets/image/pokeball.png" alt="Pokebal Button" />
+          <img src="../../public/assets/image/pokeball.png" alt="Pokebal Button" />
         </figure>
 
         <div className='leds_containers'>

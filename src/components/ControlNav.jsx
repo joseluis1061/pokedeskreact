@@ -47,7 +47,7 @@ export const ControlNav = ({idPokemon, setIdPokemon}) => {
         >
           Next
         </button>          
-        <img className="logo" src="../../src/assets/image/logo.webp" alt="Logo Pokemon" />
+        <img className="logo" src="../../public/assets/image/logo.webp" alt="Logo Pokemon" />
       </div>
     </section>
   )
